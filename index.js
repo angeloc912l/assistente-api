@@ -18,7 +18,7 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
 
-// -- Rotte base che hai già modificato commento--
+// -- Rotte base che hai già modificato commento 1--
 
 app.get('/test', (req, res) => {
   res.json({ message: 'Server OK' });
